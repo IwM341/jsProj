@@ -1,0 +1,97 @@
+{
+	"lexems": [
+		{
+			"type": 0,
+			"value": "x"
+		},
+		{
+			"type": 4,
+			"value": "="
+		},
+		{
+			"type": 2,
+			"value": "frac"
+		},
+		{
+			"type": 3,
+			"value": "{"
+		},
+		{
+			"type": 4,
+			"value": "-"
+		},
+		{
+			"type": 0,
+			"value": "b"
+		},
+		{
+			"type": 2,
+			"value": "pm"
+		},
+		{
+			"type": 2,
+			"value": "sqrt"
+		},
+		{
+			"type": 3,
+			"value": "{"
+		},
+		{
+			"type": 0,
+			"value": "b"
+		},
+		{
+			"type": 4,
+			"value": "^"
+		},
+		{
+			"type": 1,
+			"value": 2.3
+		},
+		{
+			"type": 4,
+			"value": "-"
+		},
+		{
+			"type": 1,
+			"value": 4
+		},
+		{
+			"type": 0,
+			"value": "a"
+		},
+		{
+			"type": 4,
+			"value": "*"
+		},
+		{
+			"type": 0,
+			"value": "c"
+		},
+		{
+			"type": 3,
+			"value": "}"
+		},
+		{
+			"type": 3,
+			"value": "}"
+		},
+		{
+			"type": 3,
+			"value": "{"
+		},
+		{
+			"type": 1,
+			"value": 2.1
+		},
+		{
+			"type": 0,
+			"value": "a"
+		},
+		{
+			"type": 3,
+			"value": "}"
+		}
+	],
+	"logger": ""
+}

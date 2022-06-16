@@ -1,0 +1,53 @@
+{
+    "functions":[
+        "sin","cos","tan", "cot","tg","ctg","ctan",
+        "arcsin","arccos","arctan",
+    
+        "sinh","cosh","tanh", "coth",
+        "arcsinh","arccosh","arctanh",
+    
+        "ln","exp","Gamma",
+        "floor","ceil","round",
+        "sign", "abs"
+    ],
+    "greek":[
+        "alpha", "Alpha",
+        "beta", "Beta",
+        "gamma", 
+        "delta", "Delta",
+        "epsilon","Epsilon", "varepsilon",
+        "zeta","Zeta",
+        "eta","Eta",
+        "theta","Theta","vartheta",
+        "iota","Iota",
+        "kappa","Kappa","varkappa",
+        "lambda","Lambda",
+        "mu","Mu",
+        "nu","Nu",
+        "xi","Xi",
+        "pi","Pi","varpi",
+        "rho","Rho","varrho",
+        "sigma","Sigma","varsigma",
+        "tau","Tau",
+        "upsilon","Upsilon",
+        "phi","Phi","varphi",
+        "chi","Chi",
+        "psi", "Psi", 
+        "omega","Omega"
+    ],
+    "constants":["exponentialE","differentialD","partial"],
+    "special":[
+        "prod","sum","int", "log","sqrt","frac","cfrac","operatorname"
+    ],
+    "operators":["times","dot","cdot","mod","colon","choose"],
+    "logic":[
+        "land","lor","lnot","implies","leftarrow","rightarrow","neg"
+    ],
+    "inequalities":[
+        "leq","leqslant","geq","geqslant","ne"
+    ],
+    "spaces":[
+        "quad",",",":",";","!","qquad","left","right"
+    ]
+}
+

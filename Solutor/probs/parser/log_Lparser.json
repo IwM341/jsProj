@@ -1,0 +1,91 @@
+{
+	"tokens": [
+		{
+			"type": 0,
+			"value": "x",
+			"latex": "x"
+		},
+		{
+			"type": 3,
+			"value": "frac"
+		},
+		{
+			"type": 5,
+			"value": "{"
+		},
+		{
+			"type": 4,
+			"value": "-"
+		},
+		{
+			"type": 0,
+			"value": "b",
+			"latex": "b"
+		},
+		{
+			"type": 2,
+			"value": "sqrt"
+		},
+		{
+			"type": 5,
+			"value": "{"
+		},
+		{
+			"type": 0,
+			"value": "b",
+			"latex": "b"
+		},
+		{
+			"type": 4,
+			"value": "**"
+		},
+		{
+			"type": 1,
+			"value": 2.3
+		},
+		{
+			"type": 4,
+			"value": "-"
+		},
+		{
+			"type": 1,
+			"value": 4
+		},
+		{
+			"type": 0,
+			"value": "a",
+			"latex": "a"
+		},
+		{
+			"type": 0,
+			"value": "c",
+			"latex": "c"
+		},
+		{
+			"type": 5,
+			"value": "}"
+		},
+		{
+			"type": 5,
+			"value": "}"
+		},
+		{
+			"type": 5,
+			"value": "{"
+		},
+		{
+			"type": 1,
+			"value": 2.1
+		},
+		{
+			"type": 0,
+			"value": "a",
+			"latex": "a"
+		},
+		{
+			"type": 5,
+			"value": "}"
+		}
+	],
+	"logger": "OperatorTable doesn't contain = at i = 1OperatorTable doesn't contain * at i = 15"
+}

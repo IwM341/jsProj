@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Web Workers basic example</title>
+    <!-- <script defer src="//unpkg.com/mathlive/dist/mathlive.min.js"></script> -->
+  </head>
+  <body>
+    
+    <math-field id="formula" virtual-keyboard-mode=manual>
+      x=\frac{-b\pm \sqrt{b^2-4ac}}{2a}
+  </math-field>
+  <textarea id="latex"></textarea>
+    
+    <script type="module">
+      import "https://unpkg.com/mathlive/dist/mathlive.mjs";
+    const mf = document.getElementById('formula');
+    mf.addEventListener('input',(ev) => {
+        document.getElementById('latex').value = mf.value;
+    });
+//
+    document.getElementById('latex').value = mf.value;
+//
+    // Listen for changes in the latex text field, and reflect its value in 
+    // the mathfield.
+//
+    document.getElementById('latex').
+      addEventListener('input', (ev) => {
+        mf.setValue(
+          ev.target.value, 
+          {suppressChangeNotifications: true}
+        );
+    });
+    </script>
+  </body>
